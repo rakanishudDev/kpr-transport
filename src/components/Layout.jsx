@@ -18,7 +18,7 @@ const Layout = ({children}) => {
             </header>
             <nav className="nav">
                 <ul className="nav-links">
-                    <li><Link className="link" to="/">AVALEHT</Link></li>
+                    <li><Link className="link" to="/kpr-transport">AVALEHT</Link></li>
                     <li><Link className="link" to="/hinnakiri">HINNAKIRI</Link></li>
                     <li><Link className="link" to="/kontakt">KONTAKT</Link></li>
                 </ul>
