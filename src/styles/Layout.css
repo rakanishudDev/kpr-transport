@@ -1,0 +1,94 @@
+.layout {
+    min-height: 100vh;
+}
+.navbar-fix {
+    height: 53px;
+}
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: solid 1px black; */
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.5);
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 2rem;
+}
+.transportLogo {
+    width: 2rem;
+    height: 2rem;
+}
+.heading {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.nav {
+    margin: 0 2rem;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.menu {
+    display: none;
+    margin: 8px;
+}
+@media only screen and (max-width: 650px) {
+    .nav-links {
+        display: none
+    }
+    .menu {
+        display: block;
+    }
+    .navbar-fix{
+        height: 44px;
+    }
+}
+.link {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.main {
+    height: 100%;
+}
+.footer {
+    border-top: solid 1px rgb(89, 89, 89);
+}
+.footer-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 700px) {
+    .footer-info-container {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .footer-info-seperator {
+        display: none;
+    }
+}
+.footer-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.footer-info {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,70 @@
+.kontakt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(rgb(255, 255, 255) 300px, rgba(63, 69, 100, 0.1) 100%);
+
+}
+.kontakt-row {
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    background: linear-gradient(-90deg, white, rgba(130, 139, 182, 0.1), white);
+}
+@media only screen and (max-width: 620px) {
+    .kontakt-row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .juriidline-info-container {
+        margin: 0 2rem;
+    }
+    .kontakt-info-container {
+        margin: 0 2rem;
+    }
+}
+.juriidline-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.juriidline-info {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.kontakt-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.kontakt {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.info-p-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.info-firma-box {
+    margin-bottom: 1rem;
+}
+.info-firma {
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.info-firma-reg {
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+}
+.info-p {
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+}
