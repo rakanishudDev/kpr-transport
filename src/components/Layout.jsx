@@ -8,6 +8,9 @@ import {ReactComponent as Phone} from '../media/svgs/phone.svg'
 import {ReactComponent as Menu} from '../media/svgs/menu.svg'
 
 const Layout = ({children}) => {
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
   return (
     <div className="layout">
 
@@ -18,9 +21,9 @@ const Layout = ({children}) => {
             </header>
             <nav className="nav">
                 <ul className="nav-links">
-                    <li><Link className="link" to="/kpr-transport">AVALEHT</Link></li>
-                    <li><Link className="link" to="/hinnakiri">HINNAKIRI</Link></li>
-                    <li><Link className="link" to="/kontakt">KONTAKT</Link></li>
+                    <li><Link onClick={scrollToTop} className="link" to="/kpr-transport">AVALEHT</Link></li>
+                    <li><Link onClick={scrollToTop} className="link" to="/hinnakiri">HINNAKIRI</Link></li>
+                    <li><Link onClick={scrollToTop} className="link" to="/kontakt">KONTAKT</Link></li>
                 </ul>
                 <div className="menu">
                     <Menu width="1.5rem" />
