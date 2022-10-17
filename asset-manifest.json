@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/kpr-transport/static/css/main.53e21e25.css",
+    "main.js": "/kpr-transport/static/js/main.1249f6c1.js",
+    "static/js/787.7b6320c2.chunk.js": "/kpr-transport/static/js/787.7b6320c2.chunk.js",
+    "static/media/renault-master.jpg": "/kpr-transport/static/media/renault-master.f011de94cb04548fbb4c.jpg",
+    "static/media/renault-cab.jpg": "/kpr-transport/static/media/renault-cab.4751769548567977bfad.jpg",
+    "static/media/schenker.svg": "/kpr-transport/static/media/schenker.45cecf54e428207c0e6bb2a9f910d1e2.svg",
+    "static/media/Veoteenus.jpg": "/kpr-transport/static/media/Veoteenus.a3942c2fee39137f5a05.jpg",
+    "static/media/volvofurgoon.jpg": "/kpr-transport/static/media/volvofurgoon.e8eef05f590c987fee6b.jpg",
+    "static/media/dpd.png": "/kpr-transport/static/media/dpd.7fff6d1adc6d7e2ecb75.png",
+    "static/media/alecoq.svg": "/kpr-transport/static/media/alecoq.1f6b46feb8a627f5733557d4ac211e6e.svg",
+    "static/media/Ahola.png": "/kpr-transport/static/media/Ahola.e9a0ff41dc99a2d94d4c.png",
+    "static/media/onninen.png": "/kpr-transport/static/media/onninen.2baf463e1fcb6f50b5a1.png",
+    "static/media/omniva.png": "/kpr-transport/static/media/omniva.304900b287cad93920f0.png",
+    "static/media/truck.svg": "/kpr-transport/static/media/truck.7d64d0bfb11cc475e6ac9ad8ae8383cb.svg",
+    "static/media/house.svg": "/kpr-transport/static/media/house.e58e84d97c4814bdc45b79d4115e5149.svg",
+    "static/media/location.svg": "/kpr-transport/static/media/location.adf07021746239d5c257750dc87b73d3.svg",
+    "static/media/phone.svg": "/kpr-transport/static/media/phone.3e3a6937142adfe31f0d4e84c0712acb.svg",
+    "static/media/garbage.svg": "/kpr-transport/static/media/garbage.ebfd7f742cb3fe51bf97863cb4b25227.svg",
+    "static/media/menu.svg": "/kpr-transport/static/media/menu.8c004292b9e0d8b6a5d63f9e22e94556.svg",
+    "static/media/mail.svg": "/kpr-transport/static/media/mail.782f5102f06c34c1439dc0e21fa103cd.svg",
+    "index.html": "/kpr-transport/index.html",
+    "static/media/box.svg": "/kpr-transport/static/media/box.ee148c638b9e738f4fb84e7d11fce35f.svg",
+    "main.53e21e25.css.map": "/kpr-transport/static/css/main.53e21e25.css.map",
+    "main.1249f6c1.js.map": "/kpr-transport/static/js/main.1249f6c1.js.map",
+    "787.7b6320c2.chunk.js.map": "/kpr-transport/static/js/787.7b6320c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53e21e25.css",
+    "static/js/main.1249f6c1.js"
+  ]
+}
